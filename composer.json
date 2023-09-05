@@ -1,0 +1,17 @@
+{
+    "name": "jamesgordo/laravel-japan-postalcode",
+    "description": "A package to add endpoints to search Japan addresses using a Postal Code on any existing laravel application.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JamesGordo\\JapanPostalCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Gordo"
+        }
+    ],
+    "require": {}
+}
