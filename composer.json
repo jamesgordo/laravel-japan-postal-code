@@ -6,7 +6,8 @@
     "autoload": {
         "psr-4": {
             "JamesGordo\\JapanPostalCode\\": "src/app/",
-            "JamesGordo\\JapanPostalCode\\Database\\": "src/database/"
+            "JamesGordo\\JapanPostalCode\\Database\\": "src/database/",
+            "Tests\\": "tests/"
         }
     },
     "authors": [
@@ -26,6 +27,12 @@
         }
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.25"
+        "friendsofphp/php-cs-fixer": "^3.25",
+        "pestphp/pest": "^2.17"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
